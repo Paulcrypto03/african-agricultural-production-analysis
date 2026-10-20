@@ -97,5 +97,8 @@ The analysis compares the recorded production of cassava, maize, and rice betwee
 
 The analysis focuses on comparing crop production levels, changes over time, country contributions, and data quality across the selected countries. It does not represent all countries in West Africa.
 
-## Project Status
-Initial SQL exploration and production comparison completed. Further data validation and documentation are ongoing.
+## Conclusion
+
+This project used MySQL to analyze agricultural production trends for cassava, maize, and rice across eight selected West African countries from 2000 to 2024. The analysis identified changes in production over time, differences between countries, and each country's contribution to combined crop production in 2024. Nigeria led production in all three crops in 2024, while several other countries recorded substantial percentage growth over the study period. Data quality checks were also performed to assess completeness, duplicates, reporting flags, and selected yield values.
+
+The project demonstrates practical SQL skills in data cleaning, aggregation, conditional calculations, window functions, and data validation. The findings describe only the selected countries and crops and should not be interpreted as a complete picture of agricultural production across West Africa.
