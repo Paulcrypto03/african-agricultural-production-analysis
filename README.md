@@ -55,5 +55,16 @@ The analysis compares the recorded production of cassava, maize, and rice betwee
 - Compared reported and calculated maize yields for Cabo Verde in 2017 and 2024. The results were consistent after unit conversion and rounding.
 - Missing country-crop combinations were not automatically treated as zero production.
 
+  ## Key Findings
+
+- **Cassava dominated cumulative production:** Cassava recorded approximately 1.77 billion tonnes across the selected countries over 2000–2024, exceeding maize and rice.
+- **Production increased over time:** Between 2000 and 2024, combined production increased by approximately 137.90% for cassava, 199.73% for maize, and 235.36% for rice.
+- **Nigeria led production in 2024:** Nigeria contributed 61.28% of cassava, 64.03% of maize, and 58.04% of rice production among the selected countries.
+- **Other countries recorded strong growth:** Senegal had the highest percentage growth in cassava and rice, while Niger had the highest percentage growth in maize.
+- **Production was concentrated:** Nigeria and Ghana together accounted for approximately 88.60% of cassava and 85.79% of maize production in 2024.
+- **Data quality was assessed:** Checks covered missing values, duplicate records, reporting flags, and reported versus calculated maize yields.
+
+*Scope: Eight selected West African countries, three crops, and 2000–2024. Findings do not represent all West African countries.*
+
 ## Project Status
 Initial SQL exploration and production comparison completed. Further data validation and documentation are ongoing.
