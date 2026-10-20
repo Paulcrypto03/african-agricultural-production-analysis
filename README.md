@@ -66,5 +66,16 @@ The analysis compares the recorded production of cassava, maize, and rice betwee
 
 *Scope: Eight selected West African countries, three crops, and 2000–2024. Findings do not represent all West African countries.*
 
+## SQL Skills Demonstrated
+
+- **Data aggregation:** `SUM()`, `AVG()`, and `COUNT()`
+- **Conditional aggregation:** `CASE WHEN` to compare production across years
+- **Table grouping and sorting:** `GROUP BY` and `ORDER BY`
+- **Filtering and validation:** `WHERE`, `HAVING`, and `COUNT(DISTINCT ...)`
+- **Window functions:** `LAG()` and `SUM() OVER (PARTITION BY ...)`
+- **Percentage calculations:** Measuring production growth and each country's share of crop production
+- **Data quality checks:** Identifying missing values, checking duplicates, and reviewing reporting flags
+- **Null and numeric handling:** `NULLIF()` and `ROUND()`
+
 ## Project Status
 Initial SQL exploration and production comparison completed. Further data validation and documentation are ongoing.
