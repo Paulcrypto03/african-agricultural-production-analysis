@@ -77,5 +77,13 @@ The analysis compares the recorded production of cassava, maize, and rice betwee
 - **Data quality checks:** Identifying missing values, checking duplicates, and reviewing reporting flags
 - **Null and numeric handling:** `NULLIF()` and `ROUND()`
 
+  ## Tools and Technologies
+
+- **MySQL:** Data querying, analysis, and validation
+- **MySQL Workbench:** SQL development and database management
+- **Microsoft Excel:** Working with the downloaded CSV dataset
+- **FAOSTAT:** Source of agricultural production data
+- **GitHub:** Project version control and documentation
+
 ## Project Status
 Initial SQL exploration and production comparison completed. Further data validation and documentation are ongoing.
