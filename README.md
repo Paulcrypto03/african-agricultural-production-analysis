@@ -85,5 +85,17 @@ The analysis compares the recorded production of cassava, maize, and rice betwee
 - **FAOSTAT:** Source of agricultural production data
 - **GitHub:** Project version control and documentation
 
+## Dataset and Project Scope
+
+- **Data source:** Food and Agriculture Organization of the United Nations (FAOSTAT)
+- **Geographic coverage:** Eight selected West African countries — Cabo Verde, Côte d'Ivoire, Ghana, Liberia, Mauritania, Niger, Nigeria, and Senegal
+- **Crops analyzed:** Cassava, fresh; maize (corn); and rice
+- **Time period:** 2000–2024
+- **Measures analyzed:** Production, area harvested, and yield
+- **Dataset size:** 1,575 records
+- **Data format:** CSV imported into MySQL for analysis
+
+The analysis focuses on comparing crop production levels, changes over time, country contributions, and data quality across the selected countries. It does not represent all countries in West Africa.
+
 ## Project Status
 Initial SQL exploration and production comparison completed. Further data validation and documentation are ongoing.
