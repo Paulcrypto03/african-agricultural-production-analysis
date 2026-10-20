@@ -45,6 +45,15 @@ The analysis compares the recorded production of cassava, maize, and rice betwee
 - A missing record should not automatically be interpreted as zero production.
 - Unusual values and reporting flags require verification before drawing conclusions.
 - The units and metadata should be confirmed against the original FAOSTAT download before final publication.
+  
+## Data Quality Checks
+
+- Confirmed 1,575 records covering eight selected West African countries, three crops, and the period 2000–2024.
+- Verified that each available country-crop combination contains 25 annual records for production, area harvested, and yield.
+- Checked reporting flags for official, estimated, imputed, and external-organization values.
+- Found 457 of 525 production records (87.0%) marked as official values.
+- Compared reported and calculated maize yields for Cabo Verde in 2017 and 2024. The results were consistent after unit conversion and rounding.
+- Missing country-crop combinations were not automatically treated as zero production.
 
 ## Project Status
 Initial SQL exploration and production comparison completed. Further data validation and documentation are ongoing.
