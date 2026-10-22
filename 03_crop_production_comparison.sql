@@ -18,6 +18,10 @@
 SELECT COUNT(*) AS total_records
 FROM faostat_crop_data;
 
+-- =====================================================
+-- SECTION 1: DATA EXPLORATION AND QUALITY CHECKS
+-- =====================================================
+
 SELECT *
 FROM faostat_crop_data
 LIMIT 10;
@@ -90,8 +94,12 @@ SELECT *
     WHERE Area LIKE '%Mauritania%'
     GROUP BY Area,Item,Element
     ORDER BY Item,Element;
-    
-    SELECT item,
+
+-- =====================================================
+-- SECTION 2: OVERALL CROP PRODUCTION ANALYSIS
+-- =====================================================
+
+ SELECT item,
 		SUM(Value) AS total_production_count
         FROM faostat_crop_data
         WHERE Element = 'Production'
