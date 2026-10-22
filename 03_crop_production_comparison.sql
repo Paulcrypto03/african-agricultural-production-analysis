@@ -250,6 +250,10 @@ WHERE `Element` = 'Production'
 GROUP BY `Area`
 ORDER BY percentage_change DESC;
 
+-- =====================================================
+-- SECTION 5: DATA QUALITY VALIDATION
+-- =====================================================
+
 SELECT
     `Area`,
     `Year`,
