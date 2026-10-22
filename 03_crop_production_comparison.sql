@@ -117,6 +117,25 @@ WHERE `Element` = 'Production'
 GROUP BY `Year`
 ORDER BY `Year`;
 
+SELECT
+    `Year` AS year,
+    SUM(`Value`) AS total_production
+FROM faostat_crop_data
+WHERE `Element` = 'Production'
+  AND `Item` = 'Maize (corn)'
+GROUP BY `Year`
+ORDER BY `Year`;
+
+
+SELECT
+    `Year` AS year,
+    SUM(`Value`) AS total_production
+FROM faostat_crop_data
+WHERE `Element` = 'Production'
+  AND `Item` = 'Rice'
+GROUP BY `Year`
+ORDER BY `Year`;
+
 
 		SELECT
     `Area` AS country,
