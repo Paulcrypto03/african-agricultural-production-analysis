@@ -114,7 +114,11 @@ SELECT *
             GROUP BY Year
             ORDER BY total_production_count DESC;
             
-            
+-- =====================================================
+-- SECTION 3: PRODUCTION TRENDS OVER TIME
+-- =====================================================
+
+
 		SELECT
     `Area` AS country,
     SUM(
