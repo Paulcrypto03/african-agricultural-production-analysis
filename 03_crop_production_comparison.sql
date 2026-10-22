@@ -63,12 +63,6 @@ SELECT
 FROM faostat_crop_data;
 
 
-SELECT item,
-	SUM(Value) AS total_production
-    FROM faostat_crop_data
-    WHERE Element = 'Production'
-    GROUP BY item
-    ORDER BY total_production DESC;
     
     SELECT 
 		Area AS Country,
