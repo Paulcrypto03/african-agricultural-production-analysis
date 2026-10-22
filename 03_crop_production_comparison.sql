@@ -137,6 +137,10 @@ GROUP BY `Area`
 ORDER BY production_2024 DESC;
 
 
+-- =====================================================
+-- SECTION 4: COUNTRY-LEVEL PRODUCTION ANALYSIS
+-- =====================================================
+
 SELECT
     `Area` AS country,
     SUM(CASE WHEN `Year` = 2000
