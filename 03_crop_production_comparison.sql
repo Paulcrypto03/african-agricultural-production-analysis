@@ -165,33 +165,6 @@ WHERE `Element` = 'Production'
 GROUP BY `Area`
 ORDER BY percentage_change DESC;
     
- SELECT
-    `Area` AS country,
-    SUM(CASE WHEN `Year` = 2000
-        THEN `Value` ELSE 0 END) AS production_2000,
-    SUM(CASE WHEN `Year` = 2024
-        THEN `Value` ELSE 0 END) AS production_2024,
-    ROUND(
-        (
-            SUM(CASE WHEN `Year` = 2024
-                THEN `Value` ELSE 0 END)
-            -
-            SUM(CASE WHEN `Year` = 2000
-                THEN `Value` ELSE 0 END)
-        )
-        /
-        NULLIF(
-            SUM(CASE WHEN `Year` = 2000
-                THEN `Value` ELSE 0 END), 0
-        ) * 100,
-        2
-    ) AS percentage_change
-FROM faostat_crop_data
-WHERE `Element` = 'Production'
-  AND `Item` = 'Cassava, fresh'
-  AND `Year` IN (2000, 2024)
-GROUP BY `Area`
-ORDER BY percentage_change DESC; 
 
 SHOW COLUMNS FROM faostat_crop_data;  
 
