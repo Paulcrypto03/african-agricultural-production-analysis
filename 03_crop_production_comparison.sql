@@ -62,8 +62,6 @@ SELECT
     COUNT(DISTINCT `Year`) AS number_of_years
 FROM faostat_crop_data;
 
-SELECT *
-FROM faostat_crop_data;
 
 SELECT item,
 	SUM(Value) AS total_production
@@ -86,8 +84,6 @@ SELECT DISTINCT `Area`
 	ORDER BY `Area`;
         
         
-SELECT *
-	FROM faostat_crop_data;
     
     SELECT Area,Item,Element,COUNT(*) AS total_records
     FROM faostat_crop_data
