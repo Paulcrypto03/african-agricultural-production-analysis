@@ -270,6 +270,10 @@ WHERE `Area` = 'Cabo Verde'
 ORDER BY `Year`;
 
 
+-- =====================================================
+-- SECTION 6: COMPARATIVE ANALYSIS BY COUNTRY AND CROP
+-- =====================================================
+
 SELECT
     `Area` AS country,
     SUM(CASE WHEN `Year` = 2000
