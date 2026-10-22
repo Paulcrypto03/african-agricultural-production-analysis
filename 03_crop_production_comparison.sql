@@ -108,6 +108,15 @@ SELECT DISTINCT `Area`
 -- SECTION 3: PRODUCTION TRENDS OVER TIME
 -- =====================================================
 
+SELECT
+    `Year` AS year,
+    SUM(`Value`) AS total_production
+FROM faostat_crop_data
+WHERE `Element` = 'Production'
+  AND `Item` = 'Cassava, fresh'
+GROUP BY `Year`
+ORDER BY `Year`;
+
 
 		SELECT
     `Area` AS country,
