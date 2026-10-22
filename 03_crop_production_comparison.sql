@@ -1,9 +1,19 @@
--- Project: African Agricultural Production Analysis
--- Source: FAOSTAT
--- Purpose: Compare crop production in 2000 and 2024
--- Crops: Cassava, maize, and rice
--- Metric: Percentage change in recorded production
-
+-- =====================================================
+-- PROJECT: African Agricultural Production Analysis
+-- DATA SOURCE: FAOSTAT
+-- DATABASE TABLE: faostat_crop_data
+-- COUNTRIES: Eight selected West African countries
+-- CROPS: Cassava, maize, and rice
+-- PERIOD: 2000-2024
+-- TOOLS: MySQL and MySQL Workbench
+--
+-- OBJECTIVES:
+-- 1. Validate and explore the dataset.
+-- 2. Compare crop production across countries.
+-- 3. Measure production changes over time.
+-- 4. Calculate each country's share of production.
+-- 5. Review data quality and reporting flags.
+-- =====================================================
 
 SELECT COUNT(*) AS total_records
 FROM faostat_crop_data;
